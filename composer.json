@@ -1,0 +1,14 @@
+{
+    "name": "liangzi/form",
+    "authors": [
+        {
+            "name": "szl",
+            "email": "963237028@qq.com"
+        }
+    ],
+    "require": {},
+    "autoload":{
+        "psr-4":{"liangzi\\web\\form":""}
+    }
+
+}
