@@ -53,22 +53,26 @@ class FieldSet extends Field
         return $data;
     }
 
+    /**
+     * @param $data
+     */
+    public function setReal($data)
+    {
+        die(__FUNCTION__.'未实现');
+    }
+
+    public function getReal()
+    {
+        die(__FUNCTION__.'未实现');
+    }
+
     public function validate()
     {
+
         foreach ($this->_children as $n => $c)
         {
             $c->validate();
         }
         return true;
-    }
-
-    public function setReal()
-    {
-
-    }
-
-    public function getReal()
-    {
-
     }
 }
