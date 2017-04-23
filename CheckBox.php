@@ -1,12 +1,12 @@
 <?php
 /**
  * Created by PhpStorm.
- * User: liangzi
+ * User: iliangzi
  * Date: 2017/3/18
  * Time: 上午12:39
  */
 
-namespace liangzi\web\form;
+namespace iliangzi\web\form;
 
 
 class CheckBox extends Field

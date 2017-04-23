@@ -1,7 +1,7 @@
 <?php
 /**
- * Created by liangzi/form.
- * User: liangzi
+ * Created by iliangzi/form.
+ * User: iliangzi
  * Date: 2017/4/21
  * Time: 上午1:14
  */
@@ -17,7 +17,7 @@ SPT;
 
 require(dirname(dirname(__FILE__)).'/autoload.php');
 
-$loginForm = new \liangzi\web\form\Tests\LoginForm();
+$loginForm = new \iliangzi\web\form\Tests\LoginForm();
 $data = array(
     'username'=>'test',
     'password'=>'test',

@@ -1,6 +1,6 @@
 <?php 
 
-namespace liangzi\web\form;
+namespace iliangzi\web\form;
 
 /**
  * Class Field

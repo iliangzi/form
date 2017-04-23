@@ -2,12 +2,12 @@
 
 /**
  * Created by PhpStorm.
- * User: liangzi
+ * User: iliangzi
  * Date: 2017/3/16
  * Time: 下午11:59
  */
 
-namespace liangzi\web\form;
+namespace iliangzi\web\form;
 
 /**
  * Class FieldSet

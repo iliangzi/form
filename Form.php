@@ -2,11 +2,11 @@
 
 /**
  * Created by PhpStorm.
- * User: liangzi
+ * User: iliangzi
  * Date: 2017/3/17
  * Time: 上午12:30
  */
-namespace liangzi\web\form;
+namespace iliangzi\web\form;
 
 class Form
 {

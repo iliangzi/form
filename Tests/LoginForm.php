@@ -1,17 +1,17 @@
 <?php
 /**
  * Created by PhpStorm.
- * User: liangzi
+ * User: iliangzi
  * Date: 2017/3/18
  * Time: 上午12:10
  */
 
-namespace liangzi\web\form\Tests;
+namespace iliangzi\web\form\Tests;
 
 
-use liangzi\web\form\CheckBox;
-use liangzi\web\form\Field;
-use liangzi\web\form\Form;
+use iliangzi\web\form\CheckBox;
+use iliangzi\web\form\Field;
+use iliangzi\web\form\Form;
 
 class LoginForm extends Form
 {

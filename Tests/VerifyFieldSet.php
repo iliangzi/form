@@ -1,16 +1,16 @@
 <?php
 /**
- * Created by liangzi/form.
- * User: liangzi
+ * Created by iliangzi/form.
+ * User: iliangzi
  * Date: 2017/4/21
  * Time: 上午1:36
  */
 
-namespace liangzi\web\form\Tests;
+namespace iliangzi\web\form\Tests;
 
 
-use liangzi\web\form\Field;
-use liangzi\web\form\FieldSet;
+use iliangzi\web\form\Field;
+use iliangzi\web\form\FieldSet;
 
 class VerifyFieldSet extends FieldSet
 {
