@@ -18,8 +18,9 @@ class LoginForm extends Form
 
     public function __construct()
     {
+        parent::__construct();
         $this->addChild(new Field('username',null,'用户名'));
-        $this->addChild(new Field('password',null,'密码'));
+        $this->addChild(new PasswordField('password',null,'密码'));
         $this->addChild(new CheckBox('disclaimer',false,'免责声明'));
         $this->addChild(new VerifyFieldSet('verify','','验证码'));
     }
@@ -29,7 +30,7 @@ class LoginForm extends Form
         $data = [];
         $data['uid'] = $this->getChild('username')->getReal();
         $data['pwd'] = $this->getChild('password')->getReal();
-        $data   += $this->getChild('verify')->getReal();
+        $data += $this->getChild('verify')->getReal();
         return $data;
     }
 

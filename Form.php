@@ -12,6 +12,17 @@ class Form
 {
     protected $_children = [];
 
+    private $_log = null;
+
+    /**
+     * Form constructor.
+     */
+    public function __construct()
+    {
+        $this->_log = Error::getInstance();
+    }
+
+
     /**
      * @return array
      */
@@ -91,6 +102,23 @@ class Form
             $child->validate();
         }
         return true;
+    }
+
+    public function hasError()
+    {
+        return !$this->_log->isEmpty();
+    }
+
+
+    public function getError()
+    {
+        $errors = $this->_log->getErrors();
+        $msgs = [];
+        foreach ($errors as $k=>$err)
+        {
+            $msgs += $err;
+        }
+        return $msgs;
     }
 
 }

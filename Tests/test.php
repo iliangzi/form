@@ -30,6 +30,11 @@ $data = array(
 
 $loginForm->setDisplay($data);
 $loginForm->validate();
+if($loginForm->hasError())
+{
+    $errs = $loginForm->getError();
+    die(implode("\n\r",$errs));
+}
 $ret = $loginForm->getReal();
 
 var_export($data);
