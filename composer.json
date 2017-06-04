@@ -6,6 +6,7 @@
             "email": "963237028@qq.com"
         }
     ],
+    "license": "MIT",
     "description": "form validation",
     "repositories": [
         {
