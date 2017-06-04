@@ -6,13 +6,16 @@
             "email": "963237028@qq.com"
         }
     ],
+    "description": "form validation",
     "repositories": [
         {
             "type": "vcs",
             "url": "https://github.com/iliangzi/form"
         }
     ],
-    "require": {},
+    "require": {
+        "php": ">=5.4.0"
+    },
     "autoload":{
         "psr-4":{"iliangzi\\web\\form\\":""}
     }
